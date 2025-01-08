@@ -1,0 +1,214 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  hr.divider {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 30px 0;
+  }
+  
+  /* Sección de contacto */
+  section#contacto {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  section#contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  section#contacto p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  section#contacto a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  section#contacto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección de portafolio */
+  section#portafolio {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  section#portafolio h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  section#portafolio p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .proyecto {
+    margin-bottom: 25px;
+  }
+  
+  .proyecto h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .proyecto p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .proyecto a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .proyecto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección "Acerca de mí" */
+  section#acerca-de {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  section#acerca-de h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  section#acerca-de p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+  }
+  
+  /* Sección de CV */
+  section#cv {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  section#cv h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .cv-section {
+    margin-bottom: 25px;
+  }
+  
+  .cv-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cv-section ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .cv-section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  .cv-section h4 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  .cv-section h5 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  /* Estilos para los iconos */
+  a img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  a:hover img {
+    opacity: 0.7;
+  }
+  
